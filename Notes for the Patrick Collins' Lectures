@@ -1,0 +1,49 @@
+Lesson 1 -Blockchain Basics- :
+
+Smart Contracts - set of instructions executed in a decentralised way without the need for a centralised or third party intermediary.
+
+Dapp = Decentralised Application = Decentralised  Protocol = Smart Protocol
+
+Web1 - The permissionless open sourced web with static content.
+
+Web2 - The permissioned web, with dynamic content. Where companies run your agreements on their servers.
+
+Web3 - The permissionless web, with dynamic content. Where decentralised censorship resistant networks run your agreement and code. It generally is accompanied by the idea of user owned ecosystems, where the protocols you interact with, you also own a portion of, instead of solely being the product.
+
+What is the value of smart contracts?
+- Immutable
+- Decentralised
+- Transparent 
+- Trust-minimized agreements 
+
+Transaction Fee = Gas Price x Gas Used
+
+Blockchain:
+
+Genezis Block - the first block in a blockchain
+
+Hash Algorithm - A function that computes data into a unique hash
+
+Blocks - a list of transactions mined together 
+
+Signing Transactions:
+
+Private Key - only know the key holder. Used to “sign” transactions.
+
+Lesson 2 -Welcome To Remix- :
+
+Solidity Modifiers that do not need to send a transaction: view, pure
+
+Types of variables:
+
+Calldata - temporary variables that cannot be modified
+
+Memory - temporary variables that can be modified
+
+Storage - permanent variables that can be modified
+
+Memory: structs, mappings, arrays 
+
+Basic mapping: mapping(key => value) {visibility} {name};
+
+Smart contracts are composable - they can interact with each other.
