@@ -113,3 +113,10 @@ Receiving ETH:
 * fallback() external payable
 
 receive() is called if msg.data is empty, otherwise fallback() is called.
+
+LESSON 5 -AI PROMPTING-:
+------------------------
+LESSON 6 -Foundry Simple Storage-:
+Foundry documentation.
+
+
