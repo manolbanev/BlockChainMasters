@@ -47,3 +47,69 @@ Memory: structs, mappings, arrays
 Basic mapping: mapping(key => value) {visibility} {name};
 
 Smart contracts are composable - they can interact with each other.
+
+Lesson 3 -Storage factory- :
+Mainly coding. No need for notes for this lesson. 
+
+Lesson 4 -Fund Me- :
+
+Payable - key word that makes a function able to receive ether 
+
+1e18 = 1 ETH = 1x10xx18 —>xx = ^
+
+What is a revert? — Undo any actions that have been done, and send the remaining gas back. 
+A reverted TX undos everything in the function but still spends gas.
+
+Transaction fields:
+* Nonce — TX count for the account 
+* Gas Price — price per unit of gas (In Wei)
+* Gas Limit — the maximum gas that this TX can use
+* To — dress that the TX is sent to
+* Value — amount of Wei spent
+* Data — what is sent to the “To” address
+* V, r, s — components of TX signature\
+
+Blockchain Oracle — Any device that interacts with the off-chain world to provide external data or computation to smart contracts.
+
+Library — similar to contracts, but you cannot declare any state variable and you cannot send ether. A library is embedded into the contract if all library functions are internal.
+
+For Loop —> for( {start index}, {ending index}, {step} )
+
+Sending Ether:
+* Transfer (2300 gas, throws error)
+* Send (2300 gas, returns bool)
+* Call (forward all gas or set gas, returns bool)
+
+constructor() —> optional function that is executed only upon contract creation.
+
+Modifiers — a way to change the behaviour of functions in a declarative way
+
+Used To:
+* Add preconditions
+* Add postconditions
+* Check certain conditions before executing a function
+* Modify the execution flow of the function
+
+Example 1: 
+
+modifier ModifierName(){
+//code
+_;
+}
+
+Executes what is in the modifier first because “_;” is after the code.
+
+Example 2:
+
+modifier ModifierName(){
+_;
+//code
+}
+
+Executes the function first and then what is in the modifier because “_;” is before the code.
+
+Receiving ETH:
+* receive() external payable
+* fallback() external payable
+
+receive() is called if msg.data is empty, otherwise fallback() is called.
