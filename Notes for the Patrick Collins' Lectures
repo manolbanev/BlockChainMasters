@@ -119,4 +119,27 @@ LESSON 5 -AI PROMPTING-:
 LESSON 6 -Foundry Simple Storage-:
 Foundry documentation.
 
+Lesson 7 -FOUNDRY FUND ME-:
+
+When importing “../“ moves a directory upwards(out).
+
+What can we do to work with addresses outside our system?
+1. Unit - testing a specific part of our code
+2. Integration - testing how our code works with other parts of our code
+3. Forked - testing our code on a simulated real environment
+4. Staging - testing our code In a real environment that is not prod.
+
+
+‘’’
+vm.startBroadcast;
+//code
+vm.stopBroadcast;
+
+‘’’
+The “vm” functionality is approachable after importing the “Script”.
+Everything before “vm.startBroadcast;” is not a real TX and everything after it is a real TX.
+
+Network IDS:
+Sepolia --> 11155111
+ETH/USD (Ethereum mainnet) —> 1
 
