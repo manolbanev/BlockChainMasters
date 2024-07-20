@@ -134,7 +134,6 @@ What can we do to work with addresses outside our system?
 vm.startBroadcast;
 //code
 vm.stopBroadcast;
-
 ‘’’
 The “vm” functionality is approachable after importing the “Script”.
 Everything before “vm.startBroadcast;” is not a real TX and everything after it is a real TX.
