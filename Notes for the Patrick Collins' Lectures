@@ -142,3 +142,37 @@ Network IDS:
 Sepolia --> 11155111
 ETH/USD (Ethereum mainnet) —> 1
 
+Lesson 8 -HTML FUND ME-:
+
+No need for notes in this lesson.
+
+Lesson 9 -SMART CONTRACT LOTTERY-:
+
+Layout of Contracts:
+* Version
+* Imports
+* Errors
+* Interfaces, libraries, contracts
+* Type declarations
+* State variables 
+* Events
+* Modifiers
+* Functions
+
+Layout of Functions:
+* Constructor
+* Receive function (if exists)
+* Fallback function (if exists)
+* External
+* Public
+* Internal
+* Private
+* View and pure functions
+
+Events:
+* Allow you to “print” tuff to the log
+* Tied to the smart contract 
+* Indexed parameters or non-indexed  parameters 
+* They can have up to 3 indexed params
+* Indexed params are also called topics. Topics are searchable in contrast to the non-indexed params. 
+
